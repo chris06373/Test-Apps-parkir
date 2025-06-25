@@ -1,0 +1,28 @@
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Aplikasi Parkir</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Aplikasi Parkir</h1>
+
+<label for="plat">Nomor Plat:</label>
+<input type="text" id="plat" placeholder="Masukkan nomor plat">
+
+<div>
+<label><input type="radio" name="jenis" value="Motor" checked> Motor</label>
+<label><input type="radio" name="jenis" value="Mobil"> Mobil</label>
+<label><input type="radio" name="jenis" value="Bus">Bus </label>
+</div>
+
+<button onclick="masuk()">Masuk</button>
+<button onclick="keluar()">Keluar</button>
+
+
+<h2>Log Parkir</h2>
+<ul id="log-list"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
